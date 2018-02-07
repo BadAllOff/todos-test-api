@@ -40,8 +40,8 @@ end
 
 group :test do
   gem 'factory_girl_rails', '~> 4.0'
+  gem 'faker', git: "git://github.com/stympy/faker.git", branch: "master"
   gem 'shoulda-matchers', '~> 3.1'
-  gem 'faker'
   gem 'database_cleaner'
   gem 'nyan-cat-formatter'
 end
